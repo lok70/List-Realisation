@@ -1,0 +1,24 @@
+﻿  asd2.cpp
+C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(121,17): warning C4244: инициализация: преобразование "T" в "int", возможна потеря данных
+C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(121,17): warning C4244:         with
+C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(121,17): warning C4244:         [
+C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(121,17): warning C4244:             T=elem_type
+C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(121,17): warning C4244:         ]
+  (компиляция исходного файла "asd2.cpp")
+  C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(121,17):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\kiiittto\Desktop\asd2\asd2\asd2.cpp(43,20):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "MyList<elem_type>"
+  	C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(119,10):
+  	во время компиляции функции-члена класс шаблон "void MyList<elem_type>::findMax(void)"
+  		C:\Users\kiiittto\Desktop\asd2\asd2\asd2.cpp(48,14):
+  		см. первую ссылку на "MyList<elem_type>::findMax" в "main"
+  
+C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(125,30): warning C4244: =: преобразование "T" в "int", возможна потеря данных
+C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(125,30): warning C4244:         with
+C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(125,30): warning C4244:         [
+C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(125,30): warning C4244:             T=elem_type
+C:\Users\kiiittto\Desktop\asd2\asd2\my_list.h(125,30): warning C4244:         ]
+  (компиляция исходного файла "asd2.cpp")
+  
+  asd2.vcxproj -> C:\Users\kiiittto\Desktop\asd2\x64\Debug\asd2.exe
